@@ -1,194 +1,189 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
-	<title>PINGBULLER</title>
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,300,800,800italic,700italic,600,300italic,600italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+		<title>PINGBULLER</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,300,800,800italic,700italic,600,300italic,600italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 </head>
 <body>
-<header class="header">
-	<div class="wrapper flex">
-		<div class="logo">
-			<img class="logo__img" src="img/logo.png" alt="logo">
+	<header class="header">
+		<div class="wrapper flex">
+			<div class="logo">
+				<img class="logo__img" src="img/logo.png" alt="logo">
+			</div>
+
+			<!-- menu -->
+
+			<div class=menu1>
+				<ul class="menu">
+					<li class="menu__item"><a class="menu__link" href="#">home</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">about</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">blog</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">products</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">lorem ipsum</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">dolor sit amet</a></li>
+				</ul>
+			</div>
+			<div class="menu menu--replaced">
+	            <ul>
+	                <li class="menu__item menu__item--selected menu__item--replaced"><a class="menu__link menu__link--selected" href="">HOME</a>
+	                    <ul class="menu">
+	                        <li class="menu__item"><a class="menu__link" href="">ABOUT</a></li>
+	                        <li class="menu__item"><a class="menu__link" href="">BLOG</a></li>
+	                        <li class="menu__item"><a class="menu__link" href="">PRODUCTS</a></li>
+	                        <li class="menu__item"><a class="menu__link" href="">LOREM IPSUM</a></li>
+	                        <li class="menu__item"><a class="menu__link" href="">DOLOR SIT AMET</a></li>
+	                    </ul>
+	                </li>
+	            </ul>
+	         </div>
+		</div>	
+
+		<!-- slider -->
+
+		<div class="slider">
+			<content class="content flex wrapper">
+				<div class="text">
+					<h1 class="text__title text__title--480">Lorem Ipsum Dolor</h1>
+					<h2 class="text__title text__title--small">IT WILL MAKE ALL OF YOUR DREAMS COME TRUE</h2>
+					<p class="text__title text__title--paragraf">Semper sollicitudin gravida eget, vestibulum sit amet sapien. Nunc dignissim tincidunt est, et auctor turpis ornare a. Nam venenatis hendrerit est at volutpat. Morbi elementum euismod lacus id semper. In odio nunc, imperdiet eget aliquam quis, euismod id lectus. Nulla interdum arcu et felis aliquam a tempus lectus lobortis.</p>
+				</div>
+				<div class="content__img">
+					<img class="content__img-iphone" src="img/iphone.png" alt="iphone">
+				</div>
+			</content>
 		</div>
 
-		<!-- menu -->
-		<div class=menu1>
-			<ul class="menu">
-				<li class="menu__item"><a class="menu__link" href="#">home</a></li>
-				<li class="menu__item"><a class="menu__link" href="#">about</a></li>
-				<li class="menu__item"><a class="menu__link" href="#">blog</a></li>
-				<li class="menu__item"><a class="menu__link" href="#">products</a></li>
-				<li class="menu__item"><a class="menu__link" href="#">lorem ipsum</a></li>
-				<li class="menu__item"><a class="menu__link" href="#">dolor sit amet</a></li>
-			</ul>
+		<!-- radio button -->
+
+		<div class="slider__input flex__slider">
+			<input class="slider__item" type="radio" name="button" id=button value="button">
+			<label class="slider__label" for="button"></label>
+			<input class="slider__item" type="radio" name="button" id=button1 value="button1">
+			<label class="slider__label" for="button1"></label>
+			<input class="slider__item" type="radio" name="button" id=button2 value="button2">
+			<label class="slider__label" for="button2"></label>
+			<input class="slider__item" type="radio" name="button" id=button3 value="button3">
+			<label class="slider__label" for="button3"></label>
 		</div>
-		<div class="menu menu--replaced">
-            <ul>
-                <li class="menu__item menu__item--selected menu__item--replaced"><a class="menu__link menu__link--selected" href="">HOME</a>
-                    <ul class="menu">
-                        <li class="menu__item"><a class="menu__link" href="">ABOUT</a></li>
-                        <li class="menu__item"><a class="menu__link" href="">BLOG</a></li>
-                        <li class="menu__item"><a class="menu__link" href="">PRODUCTS</a></li>
-                        <li class="menu__item"><a class="menu__link" href="">LOREM IPSUM</a></li>
-                        <li class="menu__item"><a class="menu__link" href="">DOLOR SIT AMET</a></li>
-                    </ul>
-                </li>
-            </ul>
-         </div>
-	</div>	
-	<!-- slider -->
+	</header>
 
-	<div class="slider">
-		<content class="content flex wrapper">
-			<div class="text">
-				<h1 class="text__title text__title--480">Lorem Ipsum Dolor</h1>
-				<h2 class="text__title text__title--small">IT WILL MAKE ALL OF YOUR DREAMS COME TRUE</h2>
-				<p class="text__title text__title--paragraf">Semper sollicitudin gravida eget, vestibulum sit amet sapien. Nunc dignissim tincidunt est, et auctor turpis ornare a. Nam venenatis hendrerit est at volutpat. Morbi elementum euismod lacus id semper. In odio nunc, imperdiet eget aliquam quis, euismod id lectus. Nulla interdum arcu et felis aliquam a tempus lectus lobortis.</p>
+	<!-- info -->
+
+	<div class="info flex-info">
+		<div class="info-container">
+			<div class="info-item key">
+				<h2 class="info-item__title">ABOUT OUR COMPANY</h2>
+				<p class="info-item__paragraf">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae </p>
+				<a class="info-item__paragraf info-item__paragraf--link" href="#">READ MORE</a>
 			</div>
-			<div class="content__img">
-				<img class="content__img-iphone" src="img/iphone.png" alt="iphone">
-
+			<div class="info-item sky">
+				<h2 class="info-item__title">ABOUT OUR COMPANY</h2>
+				<p class="info-item__paragraf">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae </p>
+				<a class="info-item__paragraf info-item__paragraf--link" href="#">READ MORE</a>
 			</div>
-		</content>
-	</div>
-
-	<!-- radio button -->
-
-	<div class="slider__input flex__slider">
-		<input class="slider__item" type="radio" name="button" id=button value="button">
-		<label class="slider__label" for="button"></label>
-		<input class="slider__item" type="radio" name="button" id=button1 value="button1">
-		<label class="slider__label" for="button1"></label>
-		<input class="slider__item" type="radio" name="button" id=button2 value="button2">
-		<label class="slider__label" for="button2"></label>
-		<input class="slider__item" type="radio" name="button" id=button3 value="button3">
-		<label class="slider__label" for="button3"></label>
-	</div>
-
-</header>
-
-<!-- info -->
-
-<div class="info flex-info">
-	<div class="info-container">
-	<div class="info-item key">
-		<h2 class="info-item__title">ABOUT OUR COMPANY</h2>
-		<p class="info-item__paragraf">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae </p>
-		<a class="info-item__paragraf info-item__paragraf--link" href="#">READ MORE</a>
-	</div>
-	<div class="info-item sky">
-		<h2 class="info-item__title">ABOUT OUR COMPANY</h2>
-		<p class="info-item__paragraf">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae </p>
-		<a class="info-item__paragraf info-item__paragraf--link" href="#">READ MORE</a>
-	</div>
-	<div class="info-item note">
-		<h2 class="info-item__title">ABOUT OUR COMPANY</h2>
-		<p class="info-item__paragraf">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae </p>
-		<a class="info-item__paragraf info-item__paragraf--link" href="#">READ MORE</a>
-	</div>
-	</div>
-	
-</div>
-
-<!-- main -->
-
-<main class="main">
-	<div class="wrapper">
-		<div class="reviews">
-			<img class="reviews__photo" src="img/photo.png" alt="photo">
-				<article class="reviews__text">
-					<h2 class="reviews__title reviews__title--wrap">PingbulLer <span class="reviews__title reviews__text--pink">starts here</span></h2>
-					<p class="reviews__main">“Nunc turpis neque, feugiat eget eleifend et, lacinia<br class="none"> non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl.”</p>
-				</article>
-
-			<div class="reviews__input">
-				<input class="reviews__item" type="radio" name="button" id=button4 value="button">
-				<label class="reviews__label" for="button4"></label>
-				<input class="reviews__item" type="radio" name="button" id=button5 value="button">
-				<label class="reviews__label" for="button5"></label>
-				<input class="reviews__item" type="radio" name="button" id=button6 value="button">
-				<label class="reviews__label" for="button6"></label>
-				<input class="reviews__item" type="radio" name="button" id=button7 value="button">
-				<label class="reviews__label" for="button7"></label>
-				
+			<div class="info-item note">
+				<h2 class="info-item__title">ABOUT OUR COMPANY</h2>
+				<p class="info-item__paragraf">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae </p>
+				<a class="info-item__paragraf info-item__paragraf--link" href="#">READ MORE</a>
 			</div>
 		</div>
 	</div>
 
-	<div class="updates updates--for480">
-		<h2 class="reviews__title reviews__title--second">RECENT UPDATES</h2>
-		<div class="updares__item">
-				<h2 class="updates__title">Nunc turpis neque feugiat eget </h2>
-			<p class="updates__text">Posted by Admin on March 13 2012 in Recent News</p>
+	<!-- main -->
+
+	<main class="main">
+		<div class="wrapper">
+			<div class="reviews">
+				<img class="reviews__photo" src="img/photo.png" alt="photo">
+					<article class="reviews__text">
+						<h2 class="reviews__title reviews__title--wrap">PingbulLer <span class="reviews__title reviews__text--pink">starts here</span></h2>
+						<p class="reviews__main">“Nunc turpis neque, feugiat eget eleifend et, lacinia<br class="none"> non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl.”</p>
+					</article>
+				<div class="reviews__input">
+					<input class="reviews__item" type="radio" name="button" id=button4 value="button">
+					<label class="reviews__label" for="button4"></label>
+					<input class="reviews__item" type="radio" name="button" id=button5 value="button">
+					<label class="reviews__label" for="button5"></label>
+					<input class="reviews__item" type="radio" name="button" id=button6 value="button">
+					<label class="reviews__label" for="button6"></label>
+					<input class="reviews__item" type="radio" name="button" id=button7 value="button">
+					<label class="reviews__label" for="button7"></label>
+				</div>
+			</div>
 		</div>
-		<div class="updares__item updares__item--img">
+		<div class="updates updates--for480">
+			<h2 class="reviews__title reviews__title--second">RECENT UPDATES</h2>
+			<div class="updares__item">
 				<h2 class="updates__title">Nunc turpis neque feugiat eget </h2>
-			<p class="updates__text">Posted by Admin on March 13 2012 in Category</p>
-		</div>
-		<div class="updares__item updares__item--img1">
+				<p class="updates__text">Posted by Admin on March 13 2012 in Recent News</p>
+			</div>
+			<div class="updares__item updares__item--img">
 				<h2 class="updates__title">Nunc turpis neque feugiat eget </h2>
-			<p class="updates__text">Posted by Admin on March 13 2012 in Blog Updates</p>
+				<p class="updates__text">Posted by Admin on March 13 2012 in Category</p>
+			</div>
+			<div class="updares__item updares__item--img1">
+				<h2 class="updates__title">Nunc turpis neque feugiat eget </h2>
+				<p class="updates__text">Posted by Admin on March 13 2012 in Blog Updates</p>
+			</div>
+			<a class="updates__link" href="#"><span class="none768">read more here</span><span class="updates__link--for768">MORE BLOG POSTS</span></a>
 		</div>
-		<a class="updates__link" href="#"><span class="none768">read more here</span><span class="updates__link--for768">MORE BLOG POSTS</span></a>
-	</div>
-</main>
+	</main>
 
-
-<nav class="list">
-	<ul class="links">
-		<li class="links__item"><a class="links__link" href="#"></a></li>
-		<li class="links__item"><a class="links__link links__link--1" href="#"></a></li>
-		<li class="links__item"><a class="links__link links__link--2" href="#"></a></li>
-		<li class="links__item"><a class="links__link links__link--3" href="#"></a></li>
-		<li class="links__item links__item--4"><a class="links__link links__link--4" href="#"></a></li>
-		<li class="links__item"><a class="links__link links__link--5" href="#"></a></li>
-	</ul>
-</nav>
-
-
-<div class="news flex-info clearfix none320">
-	<div class="news-container">
-	<section class="news-col news-col--960">
-		<h2 class="news-col__title">PIGBULL<span class="news-col__title news-col__title--color">ER</span></h2>
-		<h6 class="news-col__copyright">Copyright 2013, Pingbull AS</h6>
-		<p class="news-col__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque.  Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pul-</p>
-	</section>
-	<section class="news-col news-col--middle news-col--960">
-		<h2 class="news-col__title news-col__title--small">RECENT COMMENTS</h2>
-		<p class="news-col__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis </p>
-	</section>
-	<section class="news-col news-col--right">
-		<h2 class="news-col__title news-col__title--small">NEWS CATEGORIES</h2>
-		<p class="news-col__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis </p>
-	</section>
-	<section class="news-col news-col--middle news-col--768">
-		<h2 class="news-col__title news-col__title--small">NEWS CATEGORIES</h2>
-		<p class="news-col__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis </p>
-	</section>
-	<section class="news-col news-col--left news-col--768">
-		<h2 class="news-col__title news-col__title--small">NEWS CATEGORIES</h2>
-		<p class="news-col__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis </p>
-	</section>
-	</div>
-</div>
-
-<!-- footer menu -->
-<footer class="footer">
-	<div class="footer-wraper">
-		<ul class="menu menu--footer">
-			<li class="menu__item--footer"><a class="menu__link--footer" href="#">home</a></li>
-			<li class="menu__item--footer menu--none320"><a class="menu__link--footer" href="#">about</a></li>
-			<li class="menu__item--footer"><a class="menu__link--footer" href="#">blog</a></li>
-			<li class="menu__item--footer"><a class="menu__link--footer" href="#">products</a></li>
-			<li class="menu__item--footer"><a class="menu__link--footer" href="#">lorem ipsum</a></li>
-			<li class="menu__item--footer"><a class="menu__link--footer" href="#">dolor sit amet</a></li>
+	<nav class="list">
+		<ul class="links">
+			<li class="links__item"><a class="links__link" href="#"></a></li>
+			<li class="links__item"><a class="links__link links__link--1" href="#"></a></li>
+			<li class="links__item"><a class="links__link links__link--2" href="#"></a></li>
+			<li class="links__item"><a class="links__link links__link--3" href="#"></a></li>
+			<li class="links__item links__item--4"><a class="links__link links__link--4" href="#"></a></li>
+			<li class="links__item"><a class="links__link links__link--5" href="#"></a></li>
 		</ul>
-		<address class="footer__copy"><p class="footer__copy--text">Designed by <span class="footer__copy--bold">Pingbull AS</span></p></address>
+	</nav>
+
+	<div class="news flex-info clearfix none320">
+		<div class="news-container">
+			<section class="news-col news-col--960">
+				<h2 class="news-col__title">PIGBULL<span class="news-col__title news-col__title--color">ER</span></h2>
+				<h6 class="news-col__copyright">Copyright 2013, Pingbull AS</h6>
+				<p class="news-col__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque.  Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pul-</p>
+			</section>
+			<section class="news-col news-col--middle news-col--960">
+				<h2 class="news-col__title news-col__title--small">RECENT COMMENTS</h2>
+				<p class="news-col__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis </p>
+			</section>
+			<section class="news-col news-col--right">
+				<h2 class="news-col__title news-col__title--small">NEWS CATEGORIES</h2>
+				<p class="news-col__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis </p>
+			</section>
+			<section class="news-col news-col--middle news-col--768">
+				<h2 class="news-col__title news-col__title--small">NEWS CATEGORIES</h2>
+				<p class="news-col__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis </p>
+			</section>
+			<section class="news-col news-col--left news-col--768">
+				<h2 class="news-col__title news-col__title--small">NEWS CATEGORIES</h2>
+				<p class="news-col__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis </p>
+			</section>
+		</div>
 	</div>
-</footer>
+
+	<!-- footer menu -->
+	
+	<footer class="footer">
+		<div class="footer-wraper">
+			<ul class="menu menu--footer">
+				<li class="menu__item--footer"><a class="menu__link--footer" href="#">home</a></li>
+				<li class="menu__item--footer menu--none320"><a class="menu__link--footer" href="#">about</a></li>
+				<li class="menu__item--footer"><a class="menu__link--footer" href="#">blog</a></li>
+				<li class="menu__item--footer"><a class="menu__link--footer" href="#">products</a></li>
+				<li class="menu__item--footer"><a class="menu__link--footer" href="#">lorem ipsum</a></li>
+				<li class="menu__item--footer"><a class="menu__link--footer" href="#">dolor sit amet</a></li>
+			</ul>
+			<address class="footer__copy"><p class="footer__copy--text">Designed by <span class="footer__copy--bold">Pingbull AS</span></p></address>
+		</div>
+	</footer>
 </body>
 </html>
